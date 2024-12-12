@@ -11,11 +11,13 @@ body,html{
     width:100%;
     height:100%;
     position:fixed;
-    background:linear-gradient(#000000,#1c253c);
-    background-attachment: fixed;
-    z-index:-3;
+    background:url("https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),linear-gradient(#000000,#1c253c);
+    z-index:-1;
     transform: translateZ(0);
     will-change: transform;
+    
+
+
 }
 .stars-background{
     background-image:url("https://www.universetoday.com/wp-content/uploads/2009/09/SED_wall_1920x1200.jpg");
@@ -28,8 +30,7 @@ body,html{
     will-change: transform;
     background-position:center;
     background-size:cover;
-    background-attachment: fixed;
-    z-index:-2;
+    z-index:-1;
     opacity:0.7;
 }
 .content{
@@ -38,4 +39,5 @@ body,html{
     color:white;
     text-align:center;
     padding:50px;
+    margin-top:100px;
 }
