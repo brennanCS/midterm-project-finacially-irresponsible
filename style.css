@@ -1,0 +1,41 @@
+body,html{
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.space-background{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:linear-gradient(#000000,#1c253c);
+    background-attachment: fixed;
+    z-index:-3;
+    transform: translateZ(0);
+    will-change: transform;
+}
+.stars-background{
+    background-image:url("https://www.universetoday.com/wp-content/uploads/2009/09/SED_wall_1920x1200.jpg");
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    position:fixed;
+    transform: translateZ(0);
+    will-change: transform;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    z-index:-2;
+    opacity:0.7;
+}
+.content{
+    position:relative;
+    z-index:1;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
