@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Space</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="space-background"></div>
+        <div class="stars-background"></div>
+        <div class="content">
+            <h1>Welcome to Space</h1>
+            <div class="extra-content">
+                <h2>Explore the Universe</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Nullam hendrerit magna a libero tempus, ut tincidunt odio interdum. Fusce auctor risus id efficitur pellentesque.</p>
+                <p>Proin facilisis nisi ac neque facilisis, at cursus metus tincidunt. Nulla id fringilla felis. Donec sit amet auctor ligula, a posuere eros.</p>
+                <p>Curabitur vel velit est. Suspendisse potenti. Fusce tincidunt elit eget magna euismod, et condimentum nunc egestas.</p>
+                <p>Integer sit amet nibh a eros rhoncus lobortis at sit amet augue. Curabitur nec ante suscipit, viverra nisi ac, malesuada est.</p>
+                <p>Nam nec justo vel felis ullamcorper feugiat ac non nisi. Ut et velit ac enim sollicitudin euismod eget a ante. Fusce suscipit urna et justo placerat tristique.</p>
+                <p>Vivamus finibus, purus et consequat euismod, sapien elit feugiat nisl, eu consequat felis sapien sit amet mauris. Nulla facilisi. Fusce in augue vitae felis aliquam placerat.</p>
+                <p>Suspendisse non orci eu sem viverra maximus vel vel neque. Nam tincidunt nunc nec leo elementum, nec fermentum metus sollicitudin.</p>
+                <p>Phasellus euismod sapien et libero luctus auctor. Nam quis tortor consectetur, feugiat dui at, euismod purus. Aliquam erat volutpat. Integer volutpat augue at quam tincidunt, id vulputate purus malesuada.</p>
+                <p>Donec at diam volutpat, placerat risus non, dignissim erat. Cras vitae malesuada nunc. Etiam ac lectus augue.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Nullam hendrerit magna a libero tempus, ut tincidunt odio interdum. Fusce auctor risus id efficitur pellentesque.</p>
+                <p>Proin facilisis nisi ac neque facilisis, at cursus metus tincidunt. Nulla id fringilla felis. Donec sit amet auctor ligula, a posuere eros.</p>
+                <p>Curabitur vel velit est. Suspendisse potenti. Fusce tincidunt elit eget magna euismod, et condimentum nunc egestas.</p>
+                <p>Integer sit amet nibh a eros rhoncus lobortis at sit amet augue. Curabitur nec ante suscipit, viverra nisi ac, malesuada est.</p>
+                <p>Nam nec justo vel felis ullamcorper feugiat ac non nisi. Ut et velit ac enim sollicitudin euismod eget a ante. Fusce suscipit urna et justo placerat tristique.</p>
+                <p>Vivamus finibus, purus et consequat euismod, sapien elit feugiat nisl, eu consequat felis sapien sit amet mauris. Nulla facilisi. Fusce in augue vitae felis aliquam placerat.</p>
+                <p>Suspendisse non orci eu sem viverra maximus vel vel neque. Nam tincidunt nunc nec leo elementum, nec fermentum metus sollicitudin.</p>
+                <p>Phasellus euismod sapien et libero luctus auctor. Nam quis tortor consectetur, feugiat dui at, euismod purus. Aliquam erat volutpat. Integer volutpat augue at quam tincidunt, id vulputate purus malesuada.</p>
+                <p>Donec at diam volutpat, placerat risus non, dignissim erat. Cras vitae malesuada nunc. Etiam ac lectus augue.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Nullam hendrerit magna a libero tempus, ut tincidunt odio interdum. Fusce auctor risus id efficitur pellentesque.</p>
+                <p>Proin facilisis nisi ac neque facilisis, at cursus metus tincidunt. Nulla id fringilla felis. Donec sit amet auctor ligula, a posuere eros.</p>
+                <p>Curabitur vel velit est. Suspendisse potenti. Fusce tincidunt elit eget magna euismod, et condimentum nunc egestas.</p>
+                <p>Integer sit amet nibh a eros rhoncus lobortis at sit amet augue. Curabitur nec ante suscipit, viverra nisi ac, malesuada est.</p>
+                <p>Nam nec justo vel felis ullamcorper feugiat ac non nisi. Ut et velit ac enim sollicitudin euismod eget a ante. Fusce suscipit urna et justo placerat tristique.</p>
+                <p>Vivamus finibus, purus et consequat euismod, sapien elit feugiat nisl, eu consequat felis sapien sit amet mauris. Nulla facilisi. Fusce in augue vitae felis aliquam placerat.</p>
+                <p>Suspendisse non orci eu sem viverra maximus vel vel neque. Nam tincidunt nunc nec leo elementum, nec fermentum metus sollicitudin.</p>
+                <p>Phasellus euismod sapien et libero luctus auctor. Nam quis tortor consectetur, feugiat dui at, euismod purus. Aliquam erat volutpat. Integer volutpat augue at quam tincidunt, id vulputate purus malesuada.</p>
+                <p>Donec at diam volutpat, placerat risus non, dignissim erat. Cras vitae malesuada nunc. Etiam ac lectus augue.</p>
+            </div>
+        </div>  
+        <script>
+            window.addEventListener('scroll',function(){
+                let scrollPosition= window.pageYOffset;
+                console.log('Scroll Position:',scrollPosition);
+                document.querySelector('.space-background').style.transform='translateY(' + (scrollPosition*0.8)+'px)';
+                document.querySelector('.stars-background').style.transform='translateY(' + (scrollPosition*0.13)+'px)';
+
+
+            });
+        </script>
+    </body>
+</html>

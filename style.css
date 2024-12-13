@@ -1,0 +1,54 @@
+body,html{
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.space-background{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:url("https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),linear-gradient(#000000,#1c253c);
+    z-index:-1;
+    transform: translateZ(0);
+    will-change: transform;
+
+    
+
+
+}
+.stars-background{
+    background-image:url("https://www.universetoday.com/wp-content/uploads/2009/09/SED_wall_1920x1200.jpg");
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    position:fixed;
+    transform: translateZ(0);
+    will-change: transform;
+    background-position:center;
+    background-size:cover;
+    z-index: index -1;
+    opacity:0.7;
+}
+.content{
+    position:relative;
+    z-index:1;
+    color:white;
+    text-align:center;
+    padding:50px;
+    margin-top:100px;
+}
+@font-face{
+    font-family:myFont;
+    src:url(font/SpaceAndroidsItalic-EalLj.ttf);
+}
+p{
+    font-family: myFont;
+    font-weight:lighter;
+    color:azure;
+    
+}
