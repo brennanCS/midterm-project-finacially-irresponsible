@@ -45,9 +45,15 @@ body,html{
     font-family:myFont;
     src:url(font/SpaceAndroidsItalic-EalLj.ttf);
 }
-p{
+p,h1,h2{
     font-family: myFont;
     font-weight:lighter;
     color:azure;
     
+}
+.extra-content{
+    padding:2-px;
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    line-height:1.6; 
 }
