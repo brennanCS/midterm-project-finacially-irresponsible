@@ -5,21 +5,40 @@ body,html{
     overflow-x:hidden;
     overflow-y:auto;
 }
-.space-background{
+/*.space-background{
     top:0;
     left:0;
     width:100%;
     height:100%;
     position:fixed;
-    background:url("https://images.pexels.com/photos/1257860/pexels-photo-1257860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),linear-gradient(#000000,#1c253c);
+    background:url("images/stars.jpeg"),linear-gradient(#000000,#1c253c);
     z-index:-1;
     transform: translateZ(0);
     will-change: transform;
     
+    
+    
+    
+
+}//*/
+
+
+.space-background{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url("images/stars.jpeg"),linear-gradient(#000000,#1c253c);
+    position:fixed;
+    background-attachment:fixed;
+    z-index:-1;
+    
+    
 
 
 }
-.stars-background{
+
+/*.stars-background{
     background-image:url("https://www.universetoday.com/wp-content/uploads/2009/09/SED_wall_1920x1200.jpg");
     top:0;
     left:0;
@@ -33,13 +52,30 @@ body,html{
     z-index: index -1;
     opacity:0.7;
 }
+//*/    
+
+.stars-background{
+    background-image:url("https://www.universetoday.com/wp-content/uploads/2009/09/SED_wall_1920x1200.jpg");
+    position:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0.7;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+
+}
 .content{
     position:relative;
     z-index:1;
     color:white;
     text-align:center;
     padding:50px;
-    margin-top:100px;
+    margin-top:10px;
 }
 @font-face{
     font-family:myFont;
@@ -48,12 +84,44 @@ body,html{
 p,h1,h2{
     font-family: myFont;
     font-weight:lighter;
-    color:azure;
     
 }
 .extra-content{
+    margin-top:50px;
     padding:2-px;
     background-color:rgba(0,0,0,0.5);
-    color:white;
+    color:#f8eeec;
     line-height:1.6; 
+    font-size:23px;
+    background-size:cover;
+    z-index:1000;
+
+}
+.team{
+    background: linear-gradient(135deg, #000000, #01000a, #02010f, #04031a, #08041f);
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-attachment:scroll;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:350px;
+    color:#f8eeec;
+}
+.team-pic{
+    max-width:100%;
+    width:600px;
+    height:300px;
+    margin-bottom:5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;   
+    display:block;
+    
+}
+.member{
+    margin-left:0px;
+    margin-top:0px;
+    color:#f8eeec;
 }
