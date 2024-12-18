@@ -81,7 +81,7 @@ body,html{
     font-family:myFont;
     src:url(font/SpaceAndroidsItalic-EalLj.ttf);
 }
-p,h1,h2{
+p,h1,h2,.nav-link{
     font-family: myFont;
     font-weight:lighter;
     
